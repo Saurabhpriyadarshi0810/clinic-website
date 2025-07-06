@@ -12,7 +12,7 @@ body {
 .nav-bar {
     height: 4.875rem;
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -78,6 +78,7 @@ body {
 /* main */
 
 .hero {
+    margin-top: 4.875rem;
     width: 100%;
     height: 70vh;
     display: flex;
@@ -202,12 +203,16 @@ img {
 }
 
 .line-1 h1 {
+    height: 20vh;
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
-    text-align: center;
-    color: #068466;
-    padding: 2rem;
-    margin: 2rem 0;
+    color: #287059;
 }
+
 
 
 .signup-for-membership {
@@ -247,80 +252,80 @@ img {
 
 @media (max-width: 768px) {
 
-  .nav-bar {
-    flex-direction: column;
-    height: auto;
-    padding: 1rem;
-  }
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
 
-  .nav-bar-left {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+    .nav-bar-left {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
 
-  .nav-bar-right {
-    width: 100%;
-    margin: 0;
-  }
+    .nav-bar-right {
+        width: 100%;
+        margin: 0;
+    }
 
-  .nav-bar-right ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 0;
-    gap: 0.5rem;
-  }
+    .nav-bar-right ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+        gap: 0.5rem;
+    }
 
-  .hero {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 1rem;
-    gap: 2rem;
-  }
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
 
-  .content {
-    width: 100%;
-    height: auto;
-    padding: 1rem;
-    text-align: center;
-  }
+    .content {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+    }
 
-  .background {
-    width: 100%;
-    height: 40vh;
-    background-size: cover;
-  }
+    .background {
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+    }
 
-  .images-content {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 1rem;
-  }
+    .images-content {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+    }
 
-  .common {
-    width: 90%;
-    text-align: center;
-  }
+    .common {
+        width: 90%;
+        text-align: center;
+    }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
+    img {
+        width: 100%;
+        height: auto;
+    }
 
-  .line-1 h1 {
-    font-size: 2rem;
-    padding: 1rem;
-  }
+    .line-1 h1 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
 
-  .signup-for-membership {
-    padding: 2rem 1rem;
-  }
+    .signup-for-membership {
+        padding: 2rem 1rem;
+    }
 
-  .signup-for-membership p {
-    font-size: 1.2rem;
-  }
+    .signup-for-membership p {
+        font-size: 1.2rem;
+    }
 
-  .signup-for-membership button {
-    width: 100%;
-    max-width: 200px;
-  }
+    .signup-for-membership button {
+        width: 100%;
+        max-width: 200px;
+    }
 }
